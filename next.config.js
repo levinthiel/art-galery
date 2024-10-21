@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    domains: ['example-apis.vercel.app'], // Add your domain here
+  },
   compiler: {
     styledComponents: true,
   },
