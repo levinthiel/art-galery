@@ -1,0 +1,14 @@
+import ArtPiecePreview from "../artPiecePreview";
+
+export default function ArtPiece({artPieces}){
+    return(
+        <>
+            <ul>
+                {artPieces.map((artpiece)=> (
+                    <ArtPiecePreview key={artpiece.slug} image={artpiece.imageSource} title={artpiece.name} artist={artpiece.artist} />
+
+                    ))}
+            </ul>
+        </>
+    )
+}
