@@ -1,6 +1,6 @@
 
 import useSWR from 'swr';
-import ArtPiece from './artPiece';
+import ArtPiece from '../components/ArtPiece';
 
 const URL = "https://example-apis.vercel.app/api/art";
 
