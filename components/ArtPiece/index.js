@@ -6,7 +6,6 @@ export default function ArtPiece({artPieces}){
             <ul>
                 {artPieces.map((artpiece)=> (
                     <ArtPiecePreview key={artpiece.slug} image={artpiece.imageSource} title={artpiece.name} artist={artpiece.artist} slug={artpiece.slug} />
-
                     ))}
             </ul>
         </>
